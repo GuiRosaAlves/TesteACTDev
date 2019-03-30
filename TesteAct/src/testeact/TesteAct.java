@@ -43,7 +43,7 @@ public class TesteAct {
     public static void main(String[] args){
         while(true){
             Order currOrder = new Order();
-            print("Digite o pedido:");
+            print("Type your order:");
             currOrder.compileOrder(scan.nextLine());
             scan.nextLine();
         }
